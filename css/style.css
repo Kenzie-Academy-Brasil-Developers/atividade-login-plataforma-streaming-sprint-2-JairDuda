@@ -45,7 +45,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 
 /* BODY */
-@media (min-width: 380px){
+@media (min-width: 480px){
     body{
         padding: 0;
         margin: 0;
@@ -54,7 +54,7 @@ font-family: 'Source Sans Pro', sans-serif;
         color: white;
     }
     #login{
-        width: 480px;
+        width: 470px;
         
         
         background-color: rgba(0,0,0,0.6);
@@ -181,7 +181,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* EXTRAS */
 
-@media (max-width: 380px){
+@media (max-width: 480px){
     body{
         background-color: black;
         font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
