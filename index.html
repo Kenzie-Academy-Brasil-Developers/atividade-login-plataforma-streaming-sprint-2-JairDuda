@@ -9,10 +9,26 @@
 </head>
 <body>
 	<header>
-		
+		<img src="img/logo.svg" alt="">
 	</header>
 	<main>
-		
+        <form id="login" action="/send">
+			<h1>Entrar</h1>
+            <input type="email" class="input" pattern=".+@globex\.com" size="30" required placeholder="Seu email aqui">
+            <input type="password" class="input" name="password" required placeholder="Senha">
+
+            <input type="submit" id="btn" value="Enviar">
+
+			<input type="checkbox" id="scales" name="scales"
+					checked>
+			<label for="scales">Lembrar-se de mim</label>
+			<a href=""><span>Precisa de ajuda?</span></a>
+			<span id="span2">Novo por aqui?</span>
+			<a href="" id="link2"><span>Assine agora.</span></a>
+			<p>Esta página é protegida pelo Google reCAPTCHA <br>
+			para garantir que você não é um robô. <a href="">Saiba mais.</a>
+			</p>
+        </form>
 	</main>
 	<footer>
 		
