@@ -216,7 +216,7 @@ font-family: 'Source Sans Pro', sans-serif;
         display: block;
         border-radius: 5px;
         border: 0;
-        height: 60px; 
+        height: 50px; 
         margin: 15px auto;
         width: 90%;
         padding: 0;
@@ -235,7 +235,56 @@ font-family: 'Source Sans Pro', sans-serif;
         width: 90%;
         padding: 0;
         color: white;
-        margin-top: 60px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    label{
+        color: white;
+        
+        border-radius: 5px;
+        border: 0;
+        height: 50px; 
+        margin: 10px auto;
+        width: 90%;
+        padding: 0;
+    }
+
+    #scales{
+        border: 0;
+        padding: 0px;
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+
+    span{
+        
+        width: 80%;
+        color: white;
+        margin-left: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        color: rgb(0, 81, 255);
+    }
+    #span2{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    span #link2{
+        padding-left: 0;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    p{
+        color: white;
+        margin-bottom:60px ;
+        margin-left: 30px;
     }
     
 
